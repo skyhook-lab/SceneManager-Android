@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="io.skyhook.sample.scenemanager">
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <activity
+            android:name="fr.skyhook.sample.scenemanager.SampleActivity"
+            android:screenOrientation="sensorPortrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="fr.skyhook.sample.scenemanager.SampleNoAnnotationsActivity"
+            android:screenOrientation="sensorPortrait" />
+
+        <activity
+            android:name="fr.skyhook.sample.scenemanager.SampleBindScenesActivity"
+            android:screenOrientation="sensorPortrait" />
+
+        <activity
+            android:name="fr.skyhook.sample.scenemanager.SampleInflateOnDemandActivity"
+            android:screenOrientation="sensorPortrait" />
+    </application>
+
+</manifest>
