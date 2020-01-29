@@ -1,3 +1,5 @@
+[ ![Download](https://api.bintray.com/packages/jeromeskyhook/SceneManager/fr.skyhook.scenemanager/images/download.svg?version=1.0.6) ](https://bintray.com/jeromeskyhook/SceneManager/fr.skyhook.scenemanager/1.0.6/link)
+
 # SceneManager-Android
 
 A simple scene manager for Android.<br>
@@ -7,7 +9,7 @@ SceneManager allows to define scenes (sets of views) from your layout and switch
 
 ```groovy
 dependencies {
-    implementation 'fr.skyhook.scenemanager:scenemanager:1.0.3'
+    implementation 'fr.skyhook.scenemanager:scenemanager:1.0.6'
 }
 ```
 
