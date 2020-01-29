@@ -3,10 +3,9 @@ package fr.skyhook.sample.scenemanager
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.FragmentActivity
-import io.skyhook.sample.scenemanager.R
-import io.skyhook.scenemanager.SceneManager
-import io.skyhook.scenemanager.annotations.BuildScenes
-import io.skyhook.scenemanager.annotations.Scene
+import fr.skyhook.scenemanager.SceneManager
+import fr.skyhook.scenemanager.annotations.BuildScenes
+import fr.skyhook.scenemanager.annotations.Scene
 import kotlinx.android.synthetic.main.hidden.*
 import kotlinx.android.synthetic.main.placeholder.*
 import kotlinx.android.synthetic.main.sample_activity_main.*

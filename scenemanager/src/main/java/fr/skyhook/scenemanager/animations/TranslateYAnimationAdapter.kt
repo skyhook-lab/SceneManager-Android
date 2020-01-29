@@ -1,4 +1,4 @@
-package io.skyhook.scenemanager.animations
+package fr.skyhook.scenemanager.animations
 
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter
@@ -6,7 +6,7 @@ import android.animation.TimeInterpolator
 import android.view.View
 import android.view.ViewGroup
 import android.view.animation.DecelerateInterpolator
-import io.skyhook.scenemanager.SceneListener
+import fr.skyhook.scenemanager.SceneListener
 
 class TranslateYAnimationAdapter(
     private val interpolator: TimeInterpolator? = DecelerateInterpolator(),

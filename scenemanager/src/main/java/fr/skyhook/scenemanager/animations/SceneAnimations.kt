@@ -1,10 +1,10 @@
-package io.skyhook.scenemanager.animations
+package fr.skyhook.scenemanager.animations
 
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter
 import android.view.View
 import androidx.viewpager.widget.ViewPager
-import io.skyhook.scenemanager.SceneListener
+import fr.skyhook.scenemanager.SceneListener
 
 object SceneAnimations {
 

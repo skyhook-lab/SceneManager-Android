@@ -1,4 +1,4 @@
-package io.skyhook.scenemanager
+package fr.skyhook.scenemanager
 
 import android.content.Context
 import android.util.AttributeSet

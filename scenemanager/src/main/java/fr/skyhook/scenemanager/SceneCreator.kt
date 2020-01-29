@@ -1,15 +1,15 @@
 @file:Suppress("DEPRECATION")
 
-package io.skyhook.scenemanager
+package fr.skyhook.scenemanager
 
 import android.app.Activity
 import android.app.Fragment
 import android.view.View
 import android.view.ViewGroup
 import androidx.annotation.IdRes
-import io.skyhook.scenemanager.animations.AnimationAdapter
-import io.skyhook.scenemanager.animations.ScenesParams
-import io.skyhook.scenemanager.annotations.Scene
+import fr.skyhook.scenemanager.animations.AnimationAdapter
+import fr.skyhook.scenemanager.animations.ScenesParams
+import fr.skyhook.scenemanager.annotations.Scene
 
 /**
  *

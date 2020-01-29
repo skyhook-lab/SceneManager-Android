@@ -1,9 +1,9 @@
-package io.skyhook.scenemanager.animations
+package fr.skyhook.scenemanager.animations
 
 import android.util.SparseArray
 import android.view.View
 import androidx.core.util.forEach
-import io.skyhook.scenemanager.annotations.Scene
+import fr.skyhook.scenemanager.annotations.Scene
 
 class TranslateScenesParams(
     scenes: SparseArray<MutableList<View>>,

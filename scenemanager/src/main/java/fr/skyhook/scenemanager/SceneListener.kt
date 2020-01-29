@@ -1,4 +1,4 @@
-package io.skyhook.scenemanager
+package fr.skyhook.scenemanager
 
 import android.view.View
 

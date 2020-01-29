@@ -1,4 +1,4 @@
-package io.skyhook.scenemanager.annotations
+package fr.skyhook.scenemanager.annotations
 
 import androidx.fragment.app.Fragment
 
@@ -13,7 +13,7 @@ import androidx.fragment.app.Fragment
  * or a [Fragment].
  *
  *
- * See [io.skyhook.scenemanager.SceneManager].
+ * See [fr.skyhook.scenemanager.SceneManager].
  */
 @Target(AnnotationTarget.CLASS, AnnotationTarget.FILE)
 @kotlin.annotation.Retention(AnnotationRetention.RUNTIME)

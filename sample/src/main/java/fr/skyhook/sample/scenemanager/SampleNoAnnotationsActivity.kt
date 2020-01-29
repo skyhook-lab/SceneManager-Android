@@ -6,12 +6,11 @@ import android.os.Bundle
 import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import io.skyhook.sample.scenemanager.R
-import io.skyhook.scenemanager.SceneCreator
-import io.skyhook.scenemanager.SceneListener
-import io.skyhook.scenemanager.SceneManager
-import io.skyhook.scenemanager.animations.SceneAnimations
-import io.skyhook.scenemanager.annotations.Scene
+import fr.skyhook.scenemanager.SceneCreator
+import fr.skyhook.scenemanager.SceneListener
+import fr.skyhook.scenemanager.SceneManager
+import fr.skyhook.scenemanager.animations.SceneAnimations
+import fr.skyhook.scenemanager.annotations.Scene
 import kotlinx.android.synthetic.main.activity_no_annotations_sample.*
 
 class SampleNoAnnotationsActivity : AppCompatActivity(), View.OnClickListener {

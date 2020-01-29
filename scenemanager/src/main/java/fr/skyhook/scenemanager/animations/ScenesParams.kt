@@ -1,4 +1,4 @@
-package io.skyhook.scenemanager.animations
+package fr.skyhook.scenemanager.animations
 
 import android.util.SparseArray
 import android.view.View

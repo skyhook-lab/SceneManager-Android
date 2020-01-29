@@ -1,6 +1,6 @@
 @file:Suppress("unused")
 
-package io.skyhook.scenemanager
+package fr.skyhook.scenemanager
 
 import android.app.Activity
 import android.app.Fragment
@@ -11,11 +11,11 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.FrameLayout
 import androidx.core.util.forEach
-import io.skyhook.scenemanager.animations.AnimationAdapter
-import io.skyhook.scenemanager.animations.SceneAnimations
-import io.skyhook.scenemanager.animations.ScenesParams
-import io.skyhook.scenemanager.annotations.BuildScenes
-import io.skyhook.scenemanager.annotations.Scene
+import fr.skyhook.scenemanager.animations.AnimationAdapter
+import fr.skyhook.scenemanager.animations.SceneAnimations
+import fr.skyhook.scenemanager.animations.ScenesParams
+import fr.skyhook.scenemanager.annotations.BuildScenes
+import fr.skyhook.scenemanager.annotations.Scene
 import java.lang.ref.WeakReference
 import java.util.*
 import kotlin.collections.ArrayList

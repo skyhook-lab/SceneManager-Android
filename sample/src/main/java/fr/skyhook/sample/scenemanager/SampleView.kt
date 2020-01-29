@@ -4,10 +4,9 @@ import android.content.Context
 import android.util.AttributeSet
 import android.view.View
 import android.widget.FrameLayout
-import io.skyhook.sample.scenemanager.R
-import io.skyhook.scenemanager.SceneManager
-import io.skyhook.scenemanager.annotations.BuildScenes
-import io.skyhook.scenemanager.annotations.Scene
+import fr.skyhook.scenemanager.SceneManager
+import fr.skyhook.scenemanager.annotations.BuildScenes
+import fr.skyhook.scenemanager.annotations.Scene
 import kotlinx.android.synthetic.main.placeholder.view.*
 import kotlinx.android.synthetic.main.sample_view_main.view.*
 import kotlinx.android.synthetic.main.spinner.view.*

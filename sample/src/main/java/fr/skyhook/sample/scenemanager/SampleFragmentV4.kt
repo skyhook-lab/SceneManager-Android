@@ -5,10 +5,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.DialogFragment
-import io.skyhook.sample.scenemanager.R
-import io.skyhook.scenemanager.SceneManager
-import io.skyhook.scenemanager.annotations.BuildScenes
-import io.skyhook.scenemanager.annotations.Scene
+import fr.skyhook.scenemanager.SceneManager
+import fr.skyhook.scenemanager.annotations.BuildScenes
+import fr.skyhook.scenemanager.annotations.Scene
 import kotlinx.android.synthetic.main.fragment_loader.*
 import kotlinx.android.synthetic.main.fragment_placeholder.*
 import kotlinx.android.synthetic.main.sample_fragment_main.*

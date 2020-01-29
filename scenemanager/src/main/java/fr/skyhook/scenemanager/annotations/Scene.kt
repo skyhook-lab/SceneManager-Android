@@ -1,4 +1,4 @@
-package io.skyhook.scenemanager.annotations
+package fr.skyhook.scenemanager.annotations
 
 import androidx.annotation.IdRes
 import androidx.annotation.LayoutRes

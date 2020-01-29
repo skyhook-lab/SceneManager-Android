@@ -1,9 +1,9 @@
-package io.skyhook.scenemanager.animations
+package fr.skyhook.scenemanager.animations
 
 import android.util.SparseArray
 import android.view.View
-import io.skyhook.scenemanager.SceneListener
-import io.skyhook.scenemanager.SceneManager
+import fr.skyhook.scenemanager.SceneListener
+import fr.skyhook.scenemanager.SceneManager
 
 /**
  * [AnimationAdapter] can be used to override the

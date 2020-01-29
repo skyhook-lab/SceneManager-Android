@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <io.skyhook.scenemanager.InflateOnDemandLayout
+        <fr.skyhook.scenemanager.InflateOnDemandLayout
             android:id="@+id/activity_no_annotations_sample_main_content"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -27,20 +27,20 @@
             app:useChildLayoutParams="false"
             app:layoutId="@layout/main" />
 
-        <io.skyhook.scenemanager.InflateOnDemandLayout
+        <fr.skyhook.scenemanager.InflateOnDemandLayout
             android:id="@+id/activity_no_annotations_sample_loader"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:layoutId="@layout/spinner" />
 
-        <io.skyhook.scenemanager.InflateOnDemandLayout
+        <fr.skyhook.scenemanager.InflateOnDemandLayout
             android:id="@+id/activity_no_annotations_sample_placeholder"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:layoutId="@layout/placeholder" />
     </FrameLayout>
 
-    <io.skyhook.scenemanager.InflateOnDemandLayout
+    <fr.skyhook.scenemanager.InflateOnDemandLayout
         android:id="@+id/activity_no_annotations_sample_main_content_another_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

@@ -1,14 +1,14 @@
-package io.skyhook.scenemanager
+package fr.skyhook.scenemanager
 
 import android.util.SparseArray
 import android.view.View
 import android.view.ViewGroup
-import io.skyhook.scenemanager.animations.AnimationAdapter
-import io.skyhook.scenemanager.animations.ScenesParams
-import io.skyhook.scenemanager.annotations.Scene
+import fr.skyhook.scenemanager.animations.AnimationAdapter
+import fr.skyhook.scenemanager.animations.ScenesParams
+import fr.skyhook.scenemanager.annotations.Scene
 
 /**
- * Contains data about a [io.skyhook.scenemanager.annotations.Scene]
+ * Contains data about a [fr.skyhook.scenemanager.annotations.Scene]
  */
 internal class ScenesMeta private constructor(
     val sceneAnimationAdapter: AnimationAdapter<ScenesParams>,
