@@ -7,9 +7,19 @@ SceneManager allows to define scenes (sets of views) from your layout and switch
 - You can use the available transition animations (fade, translate X, translate Y, etc..) or create your own (See [AnimationAdapter]).<br>
 - SceneManager can inflate your scenes on demand, this can be very useful to improve the performances of your app at launch.<br>
 
+Add this to your root build.gradle
+```groovy
+allprojects {
+	repositories {
+		//...
+		maven { url 'https://jitpack.io' }
+	}
+}
+```
+Add the dependency
 ```groovy
 dependencies {
-    implementation 'fr.skyhook.scenemanager:scenemanager:1.0.6'
+    implementation 'com.github.skyhook-lab:SceneManager-Android:Tag'
 }
 ```
 
