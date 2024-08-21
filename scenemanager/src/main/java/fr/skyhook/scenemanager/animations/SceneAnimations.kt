@@ -53,7 +53,7 @@ object SceneAnimations {
                             view.visibility = View.VISIBLE
                         }
 
-                        override fun onAnimationEnd(animation: Animator?) {
+                        override fun onAnimationEnd(animation: Animator) {
                             notifyAnimationEnd(true, sceneId, listener)
                         }
                     })
@@ -77,7 +77,7 @@ object SceneAnimations {
                             view.visibility = View.GONE
                         }
 
-                        override fun onAnimationEnd(animation: Animator?, isReverse: Boolean) {
+                        override fun onAnimationEnd(animation: Animator, isReverse: Boolean) {
                             notifyAnimationEnd(false, sceneId, listener)
                         }
                     })
@@ -110,7 +110,7 @@ object SceneAnimations {
                                 view.isEnabled = true
                             }
 
-                            override fun onAnimationEnd(animation: Animator?) {
+                            override fun onAnimationEnd(animation: Animator) {
                                 notifyAnimationEnd(true, sceneId, listener)
                             }
                         })
@@ -136,7 +136,7 @@ object SceneAnimations {
                                 view.isEnabled = false
                             }
 
-                            override fun onAnimationEnd(animation: Animator?, isReverse: Boolean) {
+                            override fun onAnimationEnd(animation: Animator, isReverse: Boolean) {
                                 notifyAnimationEnd(false, sceneId, listener)
                             }
                         })

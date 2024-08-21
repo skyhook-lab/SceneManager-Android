@@ -6,38 +6,21 @@ Properties properties = new Properties()
 properties.load(project.rootProject.file('local.properties').newDataInputStream())
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 34
 
     defaultConfig {
         applicationId "fr.skyhook.sample.coffeescene"
         minSdkVersion 16
-        targetSdkVersion 29
+        targetSdkVersion 34
         versionCode 1
         versionName "1.0"
     }
-
-    signingConfigs {
-        releaseKeyStore {
-            storeFile file(properties.getProperty("sample.keystore.path"))
-            storePassword properties.getProperty("sample.keystore.store_password")
-            keyAlias properties.getProperty("sample.keystore.key_alias")
-            keyPassword properties.getProperty("sample.keystore.key_password")
-        }
-    }
-
-    buildTypes {
-        release {
-            shrinkResources true
-            minifyEnabled true
-            useProguard true
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
-            signingConfig signingConfigs.releaseKeyStore
-        }
-    }
+    
     compileOptions {
         sourceCompatibility = 1.8
         targetCompatibility = 1.8
     }
+    namespace 'fr.skyhook.sample.scenemanager'
 }
 
 dependencies {
