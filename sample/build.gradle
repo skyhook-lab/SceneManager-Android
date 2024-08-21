@@ -15,20 +15,7 @@ android {
         versionCode 1
         versionName "1.0"
     }
-
-    signingConfigs {
-        releaseKeyStore {
-        }
-    }
-
-    buildTypes {
-        release {
-            shrinkResources true
-            minifyEnabled true
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
-            signingConfig signingConfigs.releaseKeyStore
-        }
-    }
+    
     compileOptions {
         sourceCompatibility = 1.8
         targetCompatibility = 1.8
